@@ -1,6 +1,5 @@
 development:
-  adapter: redis
-  url: redis://146.185.155.42:6379
+  adapter: async
 
 test:
   adapter: async
