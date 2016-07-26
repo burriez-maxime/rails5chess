@@ -39,8 +39,8 @@ Rails.application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGINX
 
   # Action Cable endpoint configuration
-  config.action_cable.url = 'wss://ror5chess.herokuapp.com/cable'
-  config.action_cable.allowed_request_origins = [ 'https://ror5chess.herokuapp.com', 'http://ror5chess.herokuapp.com' ]
+  config.action_cable.url = 'wss://heron.rails5chess.development.c66.me/cable'
+  config.action_cable.allowed_request_origins = [ 'https://heron.rails5chess.development.c66.me', 'http://heron.rails5chess.development.c66.me' ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true

@@ -52,6 +52,6 @@ Rails.application.configure do
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   # Action Cable endpoint configuration
-  config.action_cable.url = 'wss://localhost:3000/cable'
-  # config.action_cable.allowed_request_origins = [ 'http://platypus.rails5chess.development.c66.me/' ]
+  config.action_cable.url = 'wss://heron.rails5chess.development.c66.me/cable'
+  config.action_cable.allowed_request_origins = [ 'https://heron.rails5chess.development.c66.me', 'http://heron.rails5chess.development.c66.me' ]
 end
